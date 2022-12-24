@@ -1,0 +1,20 @@
+{
+  "files": {
+    "index.js": [
+      {
+        "id": "5b2a385c-bc97-4e40-adb7-c631f003f5af",
+        "line": 2,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "todolist_v1/views/public/style/style.css": [
+      {
+        "id": "6725234e-6bbb-4948-af0c-467540894276",
+        "line": 131,
+        "version": 1332,
+        "index": 2498
+      }
+    ]
+  }
+}
