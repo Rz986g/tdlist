@@ -7,7 +7,7 @@ const date = require(__dirname+"/date.js");
 const mongoose = require('mongoose');
 const _ = require('lodash');
 
-mongoose.connect('mongodb://localhost:27017/todolistDB');
+mongoose.connect('mongodb+srv://Rccw:Rofusabc1999@cluster0.x3a0wqs.mongodb.net/tdl');
 
 const itemsSchema = new mongoose.Schema({
   datei:String,
