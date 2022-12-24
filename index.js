@@ -6,6 +6,8 @@ const app = express();
 const date = require(__dirname+"/date.js");
 const mongoose = require('mongoose');
 const _ = require('lodash');
+const PORT = process.env.PORT || 4000;
+
 
 mongoose.connect('mongodb+srv://Rccw:Rofusabc1999@cluster0.x3a0wqs.mongodb.net/tdl');
 
@@ -139,6 +141,6 @@ app.get("/about",function(req,res){
 })
 
 
-app.listen(4000, function() {
+app.listen(PORT, function() {
   console.log("The Server is running on Port 4000")
 });
